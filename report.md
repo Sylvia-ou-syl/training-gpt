@@ -2,7 +2,6 @@
 
 ## Student Info
 - Student ID: XYZ=259
-- Due Date: May 4, midnight
 
 ---
 

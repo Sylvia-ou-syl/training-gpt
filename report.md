@@ -106,22 +106,6 @@ def _sort_str_to_devalue_his = ["keargomele"],
 
 ---
 
-## Submission Checklist
-
-### Step 2:
-- [x] Shakespeare char samples saved in report.md (first 5 lines)
-
-### Step 3:
-- [x] Plots saved in `figures/`
-- [x] Report validation loss and best settings in report.md
-
-### Step 4:
-- [x] data inside `data/code_generation/input.txt`
-- [x] new configuration in `config/train_code_generation.py`
-- [x] generated code samples in report.md
-
----
-
 ## Technical Notes
 
 ### Training Configuration Used (CPU):
@@ -134,21 +118,3 @@ def _sort_str_to_devalue_his = ["keargomele"],
 - max_iters: 2000
 - dropout: 0.0
 
-### Repository Structure:
-```
-nanoGPT/
-├── data/
-│   ├── shakespeare_char/      # Shakespeare dataset
-│   └── code_generation/       # Python code dataset
-├── config/
-│   ├── train_shakespeare_char.py
-│   └── train_code_generation.py
-├── figures/
-│   └── layers_vs_loss.png      # Architecture experiment plot
-├── out-shakespeare-char/       # Shakespeare model checkpoints
-├── out-code-generation/        # Code generation model checkpoints
-├── out-layers-*/              # Experiment model checkpoints
-├── report.md
-├── train.py
-└── sample.py
-```
